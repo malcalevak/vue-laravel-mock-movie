@@ -177,6 +177,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Oracle Service Provider
+         */
+        
+        Yajra\Oci8\Oci8ServiceProvider::class,
+
     ],
 
     /*
